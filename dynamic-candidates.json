@@ -1,7 +1,61 @@
 {
-  "generated_by": "initial",
-  "careers": {},
-  "version": "0.3.1",
-  "updated_at": "2026-08-24T16:17:15.836642+00:00",
-  "candidates": []
+  "version": "0.3.2",
+  "generated_by": "github-actions",
+  "updated_at": "2026-08-24T16:36:18.761221+00:00",
+  "policy": {
+    "movies_excluded": true,
+    "note": "自动筛选仅作技术过滤，不等同于正式法律审查。"
+  },
+  "careers": {
+    "ai": {
+      "label": "AI应用 / Agent",
+      "query": "AI应用 / Agent learning resources",
+      "candidates": []
+    },
+    "programming": {
+      "label": "程序员 / 软件开发",
+      "query": "程序员 / 软件开发 learning resources",
+      "candidates": []
+    },
+    "data": {
+      "label": "数据分析师",
+      "query": "数据分析师 learning resources",
+      "candidates": []
+    },
+    "uiux": {
+      "label": "UI / UX 设计师",
+      "query": "UI / UX 设计师 learning resources",
+      "candidates": []
+    },
+    "graphic": {
+      "label": "平面 / 视觉设计师",
+      "query": "平面 / 视觉设计师 learning resources",
+      "candidates": []
+    },
+    "video": {
+      "label": "视频剪辑 / 内容制作",
+      "query": "视频剪辑 / 内容制作 learning resources",
+      "candidates": []
+    },
+    "content": {
+      "label": "自媒体 / 内容运营",
+      "query": "自媒体 / 内容运营 learning resources",
+      "candidates": []
+    },
+    "ecommerce": {
+      "query": "电商运营 learning resources",
+      "error": "HTTP Error 403: rate limit exceeded",
+      "candidates": []
+    },
+    "office": {
+      "query": "办公效率 / 职场技能 learning resources",
+      "error": "HTTP Error 403: rate limit exceeded",
+      "candidates": []
+    },
+    "english": {
+      "query": "英语 / 国际工作能力 learning resources",
+      "error": "HTTP Error 403: rate limit exceeded",
+      "candidates": []
+    }
+  }
 }
