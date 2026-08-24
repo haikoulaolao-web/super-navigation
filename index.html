@@ -10,11 +10,8 @@
 </head>
 <body>
   <header class="hero">
-    <div class="crown">👑</div>
-    <div class="eyebrow">INDEX OF INDEXES</div>
-    <h1>导航王中王</h1>
-    <div class="en">NAV KING</div>
-    <p class="tagline">互联网不缺资源。<br>缺的是有人告诉你先去哪。</p>
+    <div class="brandline">👑 <strong>导航王中王</strong> <span>NAV KING</span></div>
+    <p class="tagline">互联网不缺资源，缺的是有人告诉你先去哪。</p>
 
     <div class="search-wrap">
       <input id="searchInput" type="search" autocomplete="off" placeholder="直接说你想干什么，例如：我想学 Python">
@@ -31,33 +28,33 @@
     </div>
 
     <div id="decisionBox" class="decision hidden"></div>
+
+    <div class="statline">
+      <span>👑 <b id="kingCount">0</b> 封王</span>
+      <span>⚔️ <b id="challengerCount">0</b> 挑战者</span>
+      <span>🟢 <b id="activeCount">0</b> 维护中</span>
+    </div>
   </header>
 
   <main>
-    <section class="stats">
-      <div><strong id="kingCount">0</strong><span>正式封王</span></div>
-      <div><strong id="challengerCount">0</strong><span>挑战者</span></div>
-      <div><strong id="activeCount">0</strong><span>持续维护</span></div>
-    </section>
-
     <section class="intro">
-      <p>别人筛选资源，我们筛选筛选者。</p>
-      <p class="muted">王冠很少。没有达到标准，就不封王。</p>
+      <strong>别人筛选资源，我们筛选筛选者。</strong>
+      <span>王冠很少，没有达到标准，就不封王。</span>
     </section>
 
     <section>
-      <div class="section-title"><span>👑</span><h2>本期王榜</h2></div>
-      <div id="kingList" class="cards"></div>
+      <div class="section-title"><h2>👑 本期王榜</h2></div>
+      <div id="kingList" class="rank-list"></div>
     </section>
 
     <section>
-      <div class="section-title"><span>⚔️</span><h2>王位争夺中</h2></div>
-      <div id="candidateList" class="cards"></div>
+      <div class="section-title"><h2>⚔️ 王位争夺</h2></div>
+      <div id="candidateList" class="rank-list"></div>
     </section>
 
     <section class="vacant">
-      <div class="section-title"><span>♟️</span><h2>王位空缺</h2></div>
-      <p>游戏开发 · 学术研究 · 效率工具 · 开放阅读等赛道继续观察。宁缺毋滥。</p>
+      <strong>♟️ 王位空缺</strong>
+      <span>游戏开发 · 学术研究 · 效率工具 · 开放阅读等赛道继续观察。</span>
     </section>
   </main>
 
@@ -65,6 +62,13 @@
     <div>001 → ∞</div>
     <p>持续发现 · 持续复检 · 王位可以更换</p>
   </footer>
+
+  <div id="detailOverlay" class="overlay hidden" aria-hidden="true">
+    <div class="sheet">
+      <button id="closeDetail" class="close" aria-label="关闭">×</button>
+      <div id="detailContent"></div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
