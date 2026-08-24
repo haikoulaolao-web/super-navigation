@@ -1,207 +1,542 @@
-[
-  {
-    "id": "free-programming-books",
-    "name": "Free Programming Books",
-    "title": "编程学习王中王",
-    "category": "学习",
-    "status": "KING",
-    "score": 96,
-    "maintenance": "ACTIVE",
-    "url": "https://github.com/EbookFoundation/free-programming-books",
-    "source": "GitHub",
-    "language": "多语言",
-    "summary": "覆盖免费编程书籍、课程、交互式学习资源与多语言内容，适合作为免费编程学习的第一入口。",
-    "why": "资源覆盖广、长期维护、结构清晰，对零基础和进阶学习者都友好。",
-    "intents": [
-      "学编程",
-      "学习编程",
-      "python",
-      "javascript",
-      "java",
-      "代码",
-      "程序员",
-      "免费编程书",
-      "编程课程",
-      "coding",
-      "programming",
-      "自学编程"
-    ]
-  },
-  {
-    "id": "awesome-selfhosted",
-    "name": "Awesome-Selfhosted",
-    "title": "自托管软件王中王",
-    "category": "技术",
-    "status": "KING",
-    "score": 95,
-    "maintenance": "ACTIVE",
-    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "source": "GitHub",
-    "language": "English",
-    "summary": "大型自由软件与自托管网络服务索引，覆盖文件、媒体、自动化、知识库、协作等大量类别。",
-    "why": "长期维护、分类成熟、上游已有机器可读数据，非常适合作为自托管世界的第一入口。",
-    "intents": [
-      "自托管",
-      "selfhosted",
-      "nas",
-      "服务器",
-      "自己部署",
-      "部署服务",
-      "开源服务",
-      "家庭服务器",
-      "homelab",
-      "开源软件"
-    ]
-  },
-  {
-    "id": "awesome-english",
-    "name": "Awesome English",
-    "title": "英语学习王中王",
-    "category": "学习",
-    "status": "KING",
-    "score": 91,
-    "maintenance": "ACTIVE",
-    "url": "https://github.com/yvoronoy/awesome-english",
-    "source": "GitHub",
-    "language": "English",
-    "summary": "英语学习资源索引，覆盖听说读写、语法、词汇、学习工具与多种练习入口。",
-    "why": "覆盖英语学习的多个核心场景，适合作为进一步寻找专项资源的第一站。",
-    "intents": [
-      "学英语",
-      "英语学习",
-      "english",
-      "听力",
-      "口语",
-      "语法",
-      "词汇",
-      "背单词",
-      "英文阅读",
-      "英语资源"
-    ]
-  },
-  {
-    "id": "awesome-courses",
-    "name": "Awesome Courses",
-    "title": "大学计算机课程王中王",
-    "category": "学习",
-    "status": "KING",
-    "score": 93,
-    "maintenance": "ACTIVE",
-    "url": "https://github.com/prakhar1989/awesome-courses",
-    "source": "GitHub",
-    "language": "English",
-    "summary": "汇集高校计算机课程及课程资料，适合寻找系统性的大学级计算机科学学习路径。",
-    "why": "比零散教程更接近完整课程体系，适合希望按学科结构学习的人。",
-    "intents": [
-      "大学公开课",
-      "计算机课程",
-      "cs课程",
-      "计算机科学",
-      "公开课",
-      "大学课程",
-      "算法课程",
-      "操作系统课程",
-      "computer science"
-    ]
-  },
-  {
-    "id": "awesome-ai-tools-2026",
-    "name": "Awesome AI Tools 2026",
-    "title": "AI工具王位候选",
-    "category": "工具",
-    "status": "CHALLENGER",
-    "score": 92,
-    "maintenance": "ACTIVE",
-    "url": "https://github.com/ahdpe/awesome-ai-tools-2026",
-    "source": "GitHub",
-    "language": "English",
-    "summary": "按实际任务筛选 AI 工具，并强调选择性收录、结构化数据与链接检查。",
-    "why": "非常接近 NAV KING 的“先帮用户做选择”理念，但仍作为挑战者观察。",
-    "intents": [
-      "ai工具",
-      "人工智能工具",
-      "写作ai",
-      "图片ai",
-      "视频ai",
-      "ai导航",
-      "ai资源",
-      "chatbot",
-      "生成式ai"
-    ]
-  },
-  {
-    "id": "awesome-design",
-    "name": "Awesome Design",
-    "title": "设计资源王位候选",
-    "category": "创作",
-    "status": "CHALLENGER",
-    "score": 88,
-    "maintenance": "ACTIVE",
-    "url": "https://github.com/gztchan/awesome-design",
-    "source": "GitHub",
-    "language": "English",
-    "summary": "设计资源索引，覆盖素材、字体、颜色、原型、工具、教程和社区。",
-    "why": "覆盖面强，但 NAV KING V0.1 暂不强行封王，保留为设计赛道主要挑战者。",
-    "intents": [
-      "设计素材",
-      "设计资源",
-      "字体",
-      "配色",
-      "ui",
-      "ux",
-      "原型",
-      "图标",
-      "设计工具",
-      "design"
-    ]
-  },
-  {
-    "id": "awesome-research",
-    "name": "Awesome Research",
-    "title": "学术研究优质入口",
-    "category": "研究",
-    "status": "PRIME",
-    "score": 85,
-    "maintenance": "ACTIVE",
-    "url": "https://github.com/TnTo/awesome-research",
-    "source": "GitHub",
-    "language": "English",
-    "summary": "面向研究工作流的资源清单，覆盖文献、写作、数据、工具和研究效率。",
-    "why": "适合作为研究工具候选入口，但目前不授予 KING。",
-    "intents": [
-      "学术研究",
-      "论文",
-      "科研",
-      "文献",
-      "研究工具",
-      "research",
-      "论文写作",
-      "学术工具"
-    ]
-  },
-  {
-    "id": "awesome-gamedev",
-    "name": "Awesome Gamedev",
-    "title": "游戏开发优质入口",
-    "category": "创作",
-    "status": "PRIME",
-    "score": 84,
-    "maintenance": "ACTIVE",
-    "url": "https://github.com/FronkonGames/Awesome-Gamedev",
-    "source": "GitHub",
-    "language": "English",
-    "summary": "覆盖游戏开发中的设计、美术、代码、音频、引擎、工具与学习资源。",
-    "why": "覆盖完整，但当前赛道保留王位空缺，继续观察更强候选。",
-    "intents": [
-      "游戏开发",
-      "做游戏",
-      "unity",
-      "unreal",
-      "godot",
-      "游戏引擎",
-      "gamedev",
-      "游戏设计",
-      "游戏素材"
-    ]
-  }
-]
+{
+  "careers": [
+    {
+      "id": "ai",
+      "label": "AI应用 / Agent",
+      "icon": "🤖",
+      "type": "职业/技能",
+      "keywords": [
+        "ai",
+        "人工智能",
+        "agent",
+        "智能体",
+        "提示词",
+        "prompt",
+        "自动化",
+        "工作流",
+        "生成式ai",
+        "ai工具",
+        "ai应用"
+      ],
+      "skills": [
+        "AI基础",
+        "提示词",
+        "Agent",
+        "工作流",
+        "自动化"
+      ],
+      "entry": {
+        "name": "Awesome AI Tools 2026",
+        "url": "https://github.com/ahdpe/awesome-ai-tools-2026",
+        "status": "CHALLENGER",
+        "score": 92,
+        "reason": "按任务筛选 AI 工具，强调精选、结构化数据与持续检查，适合作为 AI 应用资源入口。"
+      }
+    },
+    {
+      "id": "programming",
+      "label": "程序员 / 软件开发",
+      "icon": "👨‍💻",
+      "type": "职业",
+      "keywords": [
+        "程序员",
+        "软件开发",
+        "编程",
+        "python",
+        "javascript",
+        "java",
+        "前端",
+        "后端",
+        "写代码",
+        "coding",
+        "programming",
+        "开发者"
+      ],
+      "skills": [
+        "编程基础",
+        "Python/JavaScript",
+        "Git",
+        "算法",
+        "项目实践"
+      ],
+      "entry": {
+        "name": "Free Programming Books",
+        "url": "https://github.com/EbookFoundation/free-programming-books",
+        "status": "KING",
+        "score": 96,
+        "reason": "覆盖多语言免费编程书籍、课程和练习资源，适合从一个入口继续寻找系统学习资料。"
+      }
+    },
+    {
+      "id": "data",
+      "label": "数据分析师",
+      "icon": "📊",
+      "type": "职业",
+      "keywords": [
+        "数据分析",
+        "数据分析师",
+        "excel数据",
+        "sql",
+        "pandas",
+        "统计",
+        "数据可视化",
+        "tableau",
+        "power bi",
+        "kaggle"
+      ],
+      "skills": [
+        "Excel",
+        "SQL",
+        "Python",
+        "统计基础",
+        "数据可视化"
+      ],
+      "entry": {
+        "name": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "status": "PRIME",
+        "score": 88,
+        "reason": "提供 Python、Pandas、数据可视化、机器学习等短课程，适合数据技能入门与实践。"
+      }
+    },
+    {
+      "id": "uiux",
+      "label": "UI / UX 设计师",
+      "icon": "🎨",
+      "type": "职业",
+      "keywords": [
+        "ui",
+        "ux",
+        "ui设计师",
+        "ux设计师",
+        "产品设计",
+        "figma",
+        "交互设计",
+        "原型",
+        "界面设计",
+        "设计系统"
+      ],
+      "skills": [
+        "Figma",
+        "UI基础",
+        "UX",
+        "原型",
+        "交互",
+        "设计系统"
+      ],
+      "entry": {
+        "name": "UI/UX Learning Resources",
+        "url": "https://github.com/DSC-Unilag/Learning-resources/blob/main/ui-ux.md",
+        "status": "PRIME",
+        "score": 86,
+        "reason": "从软件、UX基础、设计思维到信息架构和用户测试进行分类，适合寻找 UI/UX 学习入口。"
+      }
+    },
+    {
+      "id": "graphic",
+      "label": "平面 / 视觉设计师",
+      "icon": "🖼️",
+      "type": "职业/技能",
+      "keywords": [
+        "平面设计",
+        "视觉设计",
+        "photoshop",
+        "ps",
+        "illustrator",
+        "ai软件",
+        "修图",
+        "抠图",
+        "海报",
+        "排版",
+        "配色"
+      ],
+      "skills": [
+        "Photoshop",
+        "Illustrator",
+        "排版",
+        "配色",
+        "视觉基础"
+      ],
+      "entry": {
+        "name": "Adobe Learn",
+        "url": "https://www.adobe.com/learn/",
+        "status": "KING",
+        "score": 93,
+        "reason": "Adobe 官方学习入口，覆盖 Photoshop、Illustrator 等大量免费教程，来源清晰且长期维护。"
+      }
+    },
+    {
+      "id": "video",
+      "label": "视频剪辑 / 内容制作",
+      "icon": "🎬",
+      "type": "职业/技能",
+      "keywords": [
+        "视频剪辑",
+        "剪辑",
+        "premiere",
+        "pr",
+        "after effects",
+        "ae",
+        "剪映",
+        "capcut",
+        "字幕",
+        "视频制作",
+        "短视频制作"
+      ],
+      "skills": [
+        "剪辑基础",
+        "Premiere",
+        "AE",
+        "字幕",
+        "声音",
+        "素材管理"
+      ],
+      "entry": {
+        "name": "Adobe Learn",
+        "url": "https://www.adobe.com/learn/",
+        "status": "KING",
+        "score": 93,
+        "reason": "Adobe 官方免费学习中心包含 Premiere 等视频制作教程，适合系统寻找剪辑与后期知识。"
+      }
+    },
+    {
+      "id": "content",
+      "label": "自媒体 / 内容运营",
+      "icon": "📱",
+      "type": "职业",
+      "keywords": [
+        "自媒体",
+        "内容运营",
+        "内容营销",
+        "运营",
+        "短视频运营",
+        "公众号",
+        "小红书运营",
+        "社交媒体",
+        "文案",
+        "content marketing"
+      ],
+      "skills": [
+        "内容定位",
+        "文案",
+        "短视频",
+        "发布运营",
+        "数据复盘"
+      ],
+      "entry": {
+        "name": "HubSpot Academy",
+        "url": "https://academy.hubspot.com/courses/content-marketing",
+        "status": "PRIME",
+        "score": 87,
+        "reason": "围绕内容营销提供结构化课程，适合建立内容策略、制作与运营的基础框架。"
+      }
+    },
+    {
+      "id": "ecommerce",
+      "label": "电商运营",
+      "icon": "🛒",
+      "type": "职业",
+      "keywords": [
+        "电商",
+        "电商运营",
+        "shopify",
+        "独立站",
+        "跨境电商",
+        "选品",
+        "店铺运营",
+        "商品页",
+        "网店",
+        "ecommerce"
+      ],
+      "skills": [
+        "选品",
+        "店铺搭建",
+        "商品内容",
+        "营销",
+        "数据分析"
+      ],
+      "entry": {
+        "name": "Shopify Learn",
+        "url": "https://www.shopify.com/learn",
+        "status": "PRIME",
+        "score": 86,
+        "reason": "覆盖电商建站、运营和增长相关学习内容，适合作为电商与独立站知识入口。"
+      }
+    },
+    {
+      "id": "office",
+      "label": "办公效率 / 职场技能",
+      "icon": "📑",
+      "type": "技能",
+      "keywords": [
+        "excel",
+        "表格",
+        "电子表格",
+        "ppt",
+        "powerpoint",
+        "word",
+        "office",
+        "办公软件",
+        "数据透视表",
+        "函数",
+        "办公技能"
+      ],
+      "skills": [
+        "Excel",
+        "函数",
+        "数据透视表",
+        "图表",
+        "PPT",
+        "Word"
+      ],
+      "entry": {
+        "name": "Microsoft Learn",
+        "url": "https://learn.microsoft.com/training/browse/?terms=excel",
+        "status": "KING",
+        "score": 92,
+        "reason": "微软官方学习入口，可继续查找 Excel、Microsoft 365 与办公数据相关模块。"
+      }
+    },
+    {
+      "id": "english",
+      "label": "英语 / 国际工作能力",
+      "icon": "🌍",
+      "type": "技能",
+      "keywords": [
+        "英语",
+        "学英语",
+        "english",
+        "口语",
+        "听力",
+        "单词",
+        "词汇",
+        "英文写作",
+        "商务英语",
+        "英文阅读",
+        "国际工作"
+      ],
+      "skills": [
+        "词汇",
+        "听力",
+        "口语",
+        "阅读",
+        "写作",
+        "职场英语"
+      ],
+      "entry": {
+        "name": "British Council LearnEnglish",
+        "url": "https://learnenglish.britishcouncil.org/",
+        "status": "KING",
+        "score": 94,
+        "reason": "英国文化教育协会的英语学习入口，覆盖听说读写、语法词汇等多个场景。"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "free-programming-books",
+      "name": "Free Programming Books",
+      "title": "编程学习王中王",
+      "category": "学习",
+      "status": "KING",
+      "score": 96,
+      "maintenance": "ACTIVE",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "source": "GitHub",
+      "language": "多语言",
+      "summary": "覆盖免费编程书籍、课程、交互式学习资源与多语言内容，适合作为免费编程学习的第一入口。",
+      "why": "资源覆盖广、长期维护、结构清晰，对零基础和进阶学习者都友好。",
+      "intents": [
+        "学编程",
+        "学习编程",
+        "python",
+        "javascript",
+        "java",
+        "代码",
+        "程序员",
+        "免费编程书",
+        "编程课程",
+        "coding",
+        "programming",
+        "自学编程"
+      ]
+    },
+    {
+      "id": "awesome-selfhosted",
+      "name": "Awesome-Selfhosted",
+      "title": "自托管软件王中王",
+      "category": "技术",
+      "status": "KING",
+      "score": 95,
+      "maintenance": "ACTIVE",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "source": "GitHub",
+      "language": "English",
+      "summary": "大型自由软件与自托管网络服务索引，覆盖文件、媒体、自动化、知识库、协作等大量类别。",
+      "why": "长期维护、分类成熟、上游已有机器可读数据，非常适合作为自托管世界的第一入口。",
+      "intents": [
+        "自托管",
+        "selfhosted",
+        "nas",
+        "服务器",
+        "自己部署",
+        "部署服务",
+        "开源服务",
+        "家庭服务器",
+        "homelab",
+        "开源软件"
+      ]
+    },
+    {
+      "id": "awesome-english",
+      "name": "Awesome English",
+      "title": "英语学习王中王",
+      "category": "学习",
+      "status": "KING",
+      "score": 91,
+      "maintenance": "ACTIVE",
+      "url": "https://github.com/yvoronoy/awesome-english",
+      "source": "GitHub",
+      "language": "English",
+      "summary": "英语学习资源索引，覆盖听说读写、语法、词汇、学习工具与多种练习入口。",
+      "why": "覆盖英语学习的多个核心场景，适合作为进一步寻找专项资源的第一站。",
+      "intents": [
+        "学英语",
+        "英语学习",
+        "english",
+        "听力",
+        "口语",
+        "语法",
+        "词汇",
+        "背单词",
+        "英文阅读",
+        "英语资源"
+      ]
+    },
+    {
+      "id": "awesome-courses",
+      "name": "Awesome Courses",
+      "title": "大学计算机课程王中王",
+      "category": "学习",
+      "status": "KING",
+      "score": 93,
+      "maintenance": "ACTIVE",
+      "url": "https://github.com/prakhar1989/awesome-courses",
+      "source": "GitHub",
+      "language": "English",
+      "summary": "汇集高校计算机课程及课程资料，适合寻找系统性的大学级计算机科学学习路径。",
+      "why": "比零散教程更接近完整课程体系，适合希望按学科结构学习的人。",
+      "intents": [
+        "大学公开课",
+        "计算机课程",
+        "cs课程",
+        "计算机科学",
+        "公开课",
+        "大学课程",
+        "算法课程",
+        "操作系统课程",
+        "computer science"
+      ]
+    },
+    {
+      "id": "awesome-ai-tools-2026",
+      "name": "Awesome AI Tools 2026",
+      "title": "AI工具王位候选",
+      "category": "工具",
+      "status": "CHALLENGER",
+      "score": 92,
+      "maintenance": "ACTIVE",
+      "url": "https://github.com/ahdpe/awesome-ai-tools-2026",
+      "source": "GitHub",
+      "language": "English",
+      "summary": "按实际任务筛选 AI 工具，并强调选择性收录、结构化数据与链接检查。",
+      "why": "非常接近 NAV KING 的“先帮用户做选择”理念，但仍作为挑战者观察。",
+      "intents": [
+        "ai工具",
+        "人工智能工具",
+        "写作ai",
+        "图片ai",
+        "视频ai",
+        "ai导航",
+        "ai资源",
+        "chatbot",
+        "生成式ai"
+      ]
+    },
+    {
+      "id": "awesome-design",
+      "name": "Awesome Design",
+      "title": "设计资源王位候选",
+      "category": "创作",
+      "status": "CHALLENGER",
+      "score": 88,
+      "maintenance": "ACTIVE",
+      "url": "https://github.com/gztchan/awesome-design",
+      "source": "GitHub",
+      "language": "English",
+      "summary": "设计资源索引，覆盖素材、字体、颜色、原型、工具、教程和社区。",
+      "why": "覆盖面强，但 NAV KING V0.1 暂不强行封王，保留为设计赛道主要挑战者。",
+      "intents": [
+        "设计素材",
+        "设计资源",
+        "字体",
+        "配色",
+        "ui",
+        "ux",
+        "原型",
+        "图标",
+        "设计工具",
+        "design"
+      ]
+    },
+    {
+      "id": "awesome-research",
+      "name": "Awesome Research",
+      "title": "学术研究优质入口",
+      "category": "研究",
+      "status": "PRIME",
+      "score": 85,
+      "maintenance": "ACTIVE",
+      "url": "https://github.com/TnTo/awesome-research",
+      "source": "GitHub",
+      "language": "English",
+      "summary": "面向研究工作流的资源清单，覆盖文献、写作、数据、工具和研究效率。",
+      "why": "适合作为研究工具候选入口，但目前不授予 KING。",
+      "intents": [
+        "学术研究",
+        "论文",
+        "科研",
+        "文献",
+        "研究工具",
+        "research",
+        "论文写作",
+        "学术工具"
+      ]
+    },
+    {
+      "id": "awesome-gamedev",
+      "name": "Awesome Gamedev",
+      "title": "游戏开发优质入口",
+      "category": "创作",
+      "status": "PRIME",
+      "score": 84,
+      "maintenance": "ACTIVE",
+      "url": "https://github.com/FronkonGames/Awesome-Gamedev",
+      "source": "GitHub",
+      "language": "English",
+      "summary": "覆盖游戏开发中的设计、美术、代码、音频、引擎、工具与学习资源。",
+      "why": "覆盖完整，但当前赛道保留王位空缺，继续观察更强候选。",
+      "intents": [
+        "游戏开发",
+        "做游戏",
+        "unity",
+        "unreal",
+        "godot",
+        "游戏引擎",
+        "gamedev",
+        "游戏设计",
+        "游戏素材"
+      ]
+    }
+  ]
+}

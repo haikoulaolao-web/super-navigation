@@ -4,72 +4,73 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#0c0c0f">
-  <meta name="description" content="导航王中王 NAV KING：互联网入口排名与决策引擎。">
+  <meta name="description" content="导航王中王 NAV KING：告诉你想成为谁、学会什么、完成什么，应该先去哪个互联网入口。">
   <title>导航王中王 · NAV KING</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="brandline">👑 <strong>导航王中王</strong> <span>NAV KING</span></div>
-    <p class="tagline">互联网不缺资源，缺的是有人告诉你先去哪。</p>
+<header class="hero">
+  <div class="brandline">👑 <strong>导航王中王</strong> <span>NAV KING</span></div>
+  <p class="tagline">你告诉我想成为谁、学会什么、完成什么。<br>我告诉你先去哪里。</p>
 
-    <div class="search-wrap">
-      <input id="searchInput" type="search" autocomplete="off" placeholder="直接说你想干什么，例如：我想学 Python">
-      <button id="searchBtn">找入口</button>
-    </div>
-
-    <div class="quick" id="quickIntents">
-      <button data-q="我想学编程">学编程</button>
-      <button data-q="我想学英语">学英语</button>
-      <button data-q="我要找AI工具">AI工具</button>
-      <button data-q="我要找设计素材">设计素材</button>
-      <button data-q="我要做游戏">游戏开发</button>
-      <button id="randomBtn">🎲 随便逛逛</button>
-    </div>
-
-    <div id="decisionBox" class="decision hidden"></div>
-
-    <div class="statline">
-      <span>👑 <b id="kingCount">0</b> 封王</span>
-      <span>⚔️ <b id="challengerCount">0</b> 挑战者</span>
-      <span>🟢 <b id="activeCount">0</b> 维护中</span>
-    </div>
-  </header>
-
-  <main>
-    <section class="intro">
-      <strong>别人筛选资源，我们筛选筛选者。</strong>
-      <span>王冠很少，没有达到标准，就不封王。</span>
-    </section>
-
-    <section>
-      <div class="section-title"><h2>👑 本期王榜</h2></div>
-      <div id="kingList" class="rank-list"></div>
-    </section>
-
-    <section>
-      <div class="section-title"><h2>⚔️ 王位争夺</h2></div>
-      <div id="candidateList" class="rank-list"></div>
-    </section>
-
-    <section class="vacant">
-      <strong>♟️ 王位空缺</strong>
-      <span>游戏开发 · 学术研究 · 效率工具 · 开放阅读等赛道继续观察。</span>
-    </section>
-  </main>
-
-  <footer>
-    <div>001 → ∞</div>
-    <p>持续发现 · 持续复检 · 王位可以更换</p>
-  </footer>
-
-  <div id="detailOverlay" class="overlay hidden" aria-hidden="true">
-    <div class="sheet">
-      <button id="closeDetail" class="close" aria-label="关闭">×</button>
-      <div id="detailContent"></div>
-    </div>
+  <div class="search-wrap">
+    <input id="searchInput" type="search" autocomplete="off" placeholder="例如：我想做 UI 设计师 / 我想学 Excel">
+    <button id="searchBtn">找入口</button>
   </div>
 
-  <script src="app.js"></script>
+  <div class="career-tabs" id="careerTabs"></div>
+  <div id="decisionBox" class="decision hidden"></div>
+
+  <div class="statline">
+    <span>👑 <b id="kingCount">0</b> 封王</span>
+    <span>⚔️ <b id="challengerCount">0</b> 挑战者</span>
+    <span>🟢 <b id="activeCount">0</b> 维护中</span>
+  </div>
+</header>
+
+<main>
+  <section class="intro">
+    <strong>职业 → 技能 → 第一入口</strong>
+    <span>KING GRAPH 本地判断 · 0 API 成本</span>
+  </section>
+
+  <section>
+    <div class="section-title"><h2>🔥 热门职业与技能</h2></div>
+    <div id="careerList" class="career-list"></div>
+  </section>
+
+  <section class="ad-card">
+    <div class="ad-crown">👑</div>
+    <div>
+      <h3>没有你想要的学习资源？</h3>
+      <p><strong>海量精选资源，可加博主微信获取：ziyouluoti8</strong></p>
+      <span>添加备注：导航王中王</span>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title"><h2>👑 本期王榜</h2></div>
+    <div id="kingList" class="rank-list"></div>
+  </section>
+
+  <section>
+    <div class="section-title"><h2>⚔️ 王位争夺</h2></div>
+    <div id="candidateList" class="rank-list"></div>
+  </section>
+</main>
+
+<footer>
+  <div>001 → ∞</div>
+  <p>持续发现 · 持续复检 · 王位可以更换</p>
+</footer>
+
+<div id="detailOverlay" class="overlay hidden" aria-hidden="true">
+  <div class="sheet">
+    <button id="closeDetail" class="close" aria-label="关闭">×</button>
+    <div id="detailContent"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>
