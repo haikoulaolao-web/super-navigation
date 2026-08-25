@@ -1,7 +1,7 @@
 {
   "version": "0.3.2",
   "generated_by": "github-actions",
-  "updated_at": "2026-08-24T16:36:18.761221+00:00",
+  "updated_at": "2026-08-25T05:08:21.248769+00:00",
   "policy": {
     "movies_excluded": true,
     "note": "自动筛选仅作技术过滤，不等同于正式法律审查。"
@@ -43,18 +43,18 @@
       "candidates": []
     },
     "ecommerce": {
+      "label": "电商运营",
       "query": "电商运营 learning resources",
-      "error": "HTTP Error 403: rate limit exceeded",
       "candidates": []
     },
     "office": {
+      "label": "办公效率 / 职场技能",
       "query": "办公效率 / 职场技能 learning resources",
-      "error": "HTTP Error 403: rate limit exceeded",
       "candidates": []
     },
     "english": {
+      "label": "英语 / 国际工作能力",
       "query": "英语 / 国际工作能力 learning resources",
-      "error": "HTTP Error 403: rate limit exceeded",
       "candidates": []
     }
   }
