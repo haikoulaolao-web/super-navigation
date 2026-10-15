@@ -1,7 +1,7 @@
 {
   "version": "0.3.2",
   "generated_by": "github-actions",
-  "updated_at": "2026-10-14T08:49:02.211689+00:00",
+  "updated_at": "2026-10-15T08:24:18.401170+00:00",
   "policy": {
     "movies_excluded": true,
     "note": "自动筛选仅作技术过滤，不等同于正式法律审查。"
